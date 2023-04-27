@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary: #271344;
+    --secondary: #ff4880;
+    --blue: #1ab9ff;
+    --yellow: #ffc000;
+    --green: #abcd52;
+    --coral: #FF6666;
+}
+.secondary-nav{
+    background-color: #271344;
+}
+.contact-details{
+    list-style-type: none;
+}
+.contact-details li{
+    margin-right: 16px;
+}
+
+.contact-details li a{
+    text-decoration: none;
+    color: white;
+}
+.contact-details li a i{
+    color: #ffc000;
+}
+.social-icons{
+    list-style-type: none;
+}
+.social-icons li{
+    margin-left: 12px;
+    border-radius: 50%;
+    
+
+}
+
+
+.social-icons li a{
+  color: white;
+  padding:5.5px 10px; 
+  display: inline-block; 
+}
+.social-icons li:first-child{
+    background-color: var(--blue);
+}
+.social-icons li:nth-child(2){
+    background-color: var(--yellow);
+}
+.social-icons li:nth-child(3){
+    background-color: var(--secondary);
+}
+
+
+.dropdown:hover .dropdown-menu{
+display: block;
+margin-top: 12px;
+
+}
+
+
+.navbar-brand img{
+    width: 30%;
+    height: 20%;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 16px;
+    padding: 0 13px;
+    position: relative;
+    line-height: 32px;
+    display: block;
+
+    margin-right: 18px;
+    
+}
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: #ff4880;
+    border-radius: 5px;
+    color: white;
+    transition: .3s all ease-in-out;
+}
+ .home .nav-link {
+    border-radius: 5px;
+    background-color: #ff4880;
+    
+}
+
+.search_btn {
+    padding: 2px;
+    border-radius: 50%;
+    
+}
+
+.search_btn .search_icon {
+    background-color: var(--secondary);
+    color: white;
+    display: inline-block;
+    padding: 9px 13px;
+    border-radius: 50%;
+}
+
+
+
+
+.bg-image{
+    display: flex;
+    flex-direction: column;
+    height: 848px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/bg-home-top-section.png);
+}
+
+.md-content h5{
+ color: #ff4880;
+ margin-bottom: 10px;
+ font-family: 'Schoolbell', cursive;
+ 
+ font-size: 20px;
+ letter-spacing: 3.4px;
+ font-weight: 600;
+ 
+ 
+}
+.md-content h1{
+    color: black;
+
+    font-family: 'Fredoka', sans-serif;
+    
+    font-size: 50px;
+    font-weight: 600;
+    
+    margin: 15px 0;
+    
+}
+.md-content p{
+    color: black;
+    
+    font-family: 'Fredoka', sans-serif;
+    margin: 15px 0;
+
+    font-size: 17px;
+    
+    
+}
+.md-content a{
+    background-color: #ff4880;
+    color: white;
+    text-decoration: none;
+    
+    border-radius: 10px;
+    text-transform: capitalize;
+    
+    display: inline-block;
+    padding: 13px 26px;
+    
+    font-weight: bold;
+    text-decoration: none;
+    
+    transition: .4s all ease-in-out;
+    
+   
+}
+.md-content a:hover{
+    background-color: black;
+}
+.core-values{
+    text-align: center;
+}
+.core-values h5{
+    color: #ff4880;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    letter-spacing: 3.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    
+}
+.core-values h2{
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+   text-transform: capitalize;
+   margin: 15px 0;
+    
+    
+}
+.core-values p{
+    margin: 15px 0;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    
+}
+
+.card {
+    transition: all .4s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.card_img {
+    padding: 8px;
+    border-radius: 50%;
+    border: #fff dashed 2px;
+    width: 176px;
+    height: 176px;
+    margin: 0 auto;
+    animation: loading 3s linear infinite;
+}
+
+.card_img .card-img-top {
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.card-body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.card-text {
+    padding: 0 0 2rem 0;
+}
+
+.heading span{
+    color: #ff4880;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 26px;
+}
+.heading h3{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 12px;
+    
+}
+.heading p{
+    margin-top: 12px;
+ 
+}
+.button2{
+ 
+    color: white;
+    text-decoration: none;
+    background-color: #ff4880;
+    border-radius: 10px;
+    text-transform: capitalize;
+    
+    display: inline-block;
+    padding: 13px 26px;
+    transition: all .1s ease-in-out;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 8px;
+    
+ }  
+ .button2:hover {
+    box-shadow: 0 5px #ea205e;
+}
+
+.about_section {
+    background-color: #fcf9f4;
+}
+
+
+
+.about_img {
+    margin-bottom: 68px;
+    animation-name: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+
+
+
+.about_content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_content h2{
+font-family: 'Fredoka', sans-serif;
+color: var(--primary);
+font-size: 40px;
+font-weight: 600;
+text-transform: capitalize;
+margin: 15px 0;
+}
+
+.about_content p{
+    font-family: 'Fredoka', sans-serif;
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+.learn_more {
+    background-color: var(--secondary);
+    color: white;
+    display: inline-block;
+    padding: 13px 26px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+}
+
+.learn_more:hover {
+    background-color: var(--primary);
+}
+
+.activities{
+    text-align: center;
+}
+.activities h5{
+    color: #ff4880;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    letter-spacing: 3.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    
+}
+.activities h2{
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+   text-transform: capitalize;
+   margin: 15px 0;
+    
+    
+}
+.activities p{
+    margin: 15px 0;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    
+}
