@@ -1,15 +1,23 @@
-<<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kindori School</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    
     <script src="https://kit.fontawesome.com/5a0a86b6f7.js" crossorigin="anonymous"></script>
- 
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
 
    
+
+
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
@@ -19,18 +27,18 @@
          <header>
           <nav class="secondary-nav">
             <div class="container">
-              <div class="secondary-navbar-wrapper d-flex justify-content-between pt-4">
+              <div class="secondary-navbar-wrapper d-flex justify-content-between align-items-center pt-4">
                 <ul class="contact-details d-flex">
                   <li><a href="tel:=93 444 555 2345"><i class="bi bi-phone-fill"></i> 888 666 1234</a></li>
                   <li><a href="https://goo.gl/maps/3CxweiPmYAZ3HNaQ7" target="_blank"><i class="bi bi-geo-alt-fill"></i> Suit 12000 San Francisco</a></li>
                   <li><a href="#"><i class="fa-solid fa-hourglass-end"></i> Mon-Sat 8am-5pm, Sun Closed</a></li>
                 
                 </ul>
-                <ul class="social-icons d-flex">
+                <ul class="social-icons d-flex justify-content-end">
                   <li><a href="https://www.facebook.com/Schools.BritishCouncil/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                   <li><a href="https://twitter.com/BritishCouncil" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                   <li><a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a></li>
-                 
+                  <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
                 
                 </ul>
               </div>
@@ -39,7 +47,7 @@
           <nav class="navbar navbar-expand-lg py-2 sticky-top">
 
 
-            <div class="container">
+            <div class="container-xl">
 
            
               <a class="navbar-brand" href="#"><img src="./assets/images/logo-dark.webp"></a>
@@ -133,7 +141,7 @@
                   </a>
                 </div>
                
-              </div>
+              
             </div><!-- /.container -->
           </nav>
          </header>
@@ -143,7 +151,7 @@
                 <section class="main-wrapper">
                   <div class="bg-image">
                    <div class="container-xl">
-                    <div class="md-content">
+                    <div class="md-content" data-aos="fade-up">
                       <h5>Kindori Kindergarten School</h5>
                       <h1>A Brighter Future For All.</h1>
                       <p>The Universe is one great kindergarten for man. Everything that exists has<br>brought with it its own peculiar lesson.</p>
@@ -164,7 +172,7 @@
                         <p>With kindori, we always put the quality of teaching children first, please rest assured<br>
                         when sending children at kindori kindergarten.</p>
                      
-                          <img src="./assets/images/image-bee.webp">
+                          <img src="./assets/images/image-bee.webp" alt="" class="bee_img">
                         
                        
                       </div>
@@ -266,44 +274,271 @@
 
                   <section class="kids-activities py-5">
                     <div class="container-xl">
-                      <div class="activities">
-                        <h5>tHINGS fOR kIDS</h5>
-                        <h2>Kids Activites</h2>
-                        <p>Infant classroom offers strategies for building positive relationships,<br> helping children develop self-regulation and responding to <br>challenging behaviors.</p>
-                     
-                          <img src="./assets/images/image-bee.webp">
-                        
+                      <div class="activities d-flex justify-content-between">
+                      <div class="img-2">
+                        <img src="./assets/images/image-home-2.webp"> 
                       </div>
-                    </div>
-                   <div class="container-xl">
-                    <div class="creative-activities">
-                      <h3>Creative Activites</h3>
-                      <p>Creative activities help children<br> develop comprehensively <br>intelligence, help children.</p>
-                   <div class="sport-activities">
-                    <h3>Sport Activites</h3>
-                    <p>Creative activities help children <br>develop comprehensively <br>intelligence, help children.</p>
-                   </div>
-                    </div>
-                   </div>
+                      
+                        <div class="childs">
+                          <h5>THINGS FOR KIDS</h5>
+                          <h2>Kids Activites</h2>
+                          <p>Infant classroom offers strategies for building positive relationships,<br> helping children develop self-regulation and responding to<br> challenging behaviors.</p>
+                          <img src="./assets/images/image-bee.webp">
+                        </div>
+                        <div class="img3">
+                          <img src="./assets/images/image-home-3.webp">
+                         </div>
+                        
+                        </div>
+                     
+                      </div>
+                  
+                   </section>
+                   <section class="creative py-5">
+                    <div class="container-xl">
+                      <div class="creative-activities d-flex justify-content-center">
+                       <div class="text">
+                        <h4>Creative Activites</h4>
+                        <p>Creative activities help children<br> develop comprehensively<br> intelligence, help children.</p>
+                        <h4>Sport Activites</h4>
+                        <p>Creative activities help children<br> develop comprehensively<br> intelligence, help children.</p>
+                       </div>
+                      <img src="./assets/images/child-man.webp">
+                      <div class="sport">
+                        <h4>
+                          Table/Floor Toys</h4>
+                        <p>Creative activities help children<br> develop comprehensively<br> intelligence, help children.</p>
+                        <h4>Water Games</h4>
+                        <p>Creative activities help children<br> develop comprehensively<br> intelligence, help children.</p>
+                       </div>
+
+                      </div>
+                     </div>
                   </section>
+   
+                     <section class="teachers py-5">
+                      <div class="container-xl">
+                        <div class="our-teachers">
+                          <h5>ABOUT THE TEACHERS</h5>
+                          <h2>Our Teachers</h2>
+                          <p>We have an excellent teacher to child ratio at our Kindergarten to ensure that each<br> child receives the attention he or she needs.</p>
+                          <img src="./assets/images/image-bee.webp">
+                        </div>
+                      </div>
+                     </section>
+                     <section class="card2 py-5">
+                      <div class="container-xl">
+                        <div class="card-warpper">
+                         <div class="row">
+                          <div class="col-md-4">
+                            <div class="card3">
+                              
+                                <img src="./assets/images/team-1-500x445 (2).jpg">
+                              <h3>alice bohm</h3>
+                              <p>senior educator</p>
+                              <ul class="social-links d-flex justify-content-center">
+                                <li><a href="https://www.facebook.com/Schools.BritishCouncil/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/BritishCouncil" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                </ul>
 
+                             
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card3">
+                              
+                                <img src="./assets/images/team-2-500x445.jpg">
 
+                              <h3>fred lambert</h3>
+                              <p>math coach</p>
+                              <ul class="social-links d-flex justify-content-center">
+                                <li><a href="https://www.facebook.com/Schools.BritishCouncil/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/BritishCouncil" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                </ul>
+
+                             
+                            </div>
+                          </div>                         
+                           <div class="col-md-4">
+                            <div class="card3">
+                              
+                              <img src="./assets/images/team-3-500x445.jpg">
+                              <h3>alice bohm</h3>
+                              <p>senior educator</p>
+                              <ul class="social-links d-flex justify-content-center">
+                              <li><a href="https://www.facebook.com/Schools.BritishCouncil/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                              <li><a href="https://twitter.com/BritishCouncil" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                              <li><a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a></li>
+                              <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                              </ul>
+
+                             
+                            </div>
+                          </div>
+                         </div>
+                          
+                     
+                           
+                      </div><!-- /.container-xl -->
+                     </section>
+                     <section class="test3 pt-3 pb-5">
+                      <div class="container-xl">
+                        <div class="test">
+                          <a href="#" class="button7">view all teachers</a>
+                        </div>
+                      </div>
+                      
+                     </section>
                   
-                   
+                                  
+            <section class="discover pt-5">
+              <div class="discover2">
+                <h2>discover our image</h2>
+              </div>
                   
-                 
+            <div class="my-project pt-5 px-2">
+              <div class="owl-carousel owl-theme">
+                <div class="item"><h4><img src="./assets/images/gallery-1-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-3-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-2-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-4-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-5-745x600 (1).jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/classes-3-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-2-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-4-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-1-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-3-745x600.jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/gallery-5-745x600 (1).jpg"></h4></div>
+                <div class="item"><h4><img src="./assets/images/classes-3-745x600.jpg"></h4></div>
+            </div>
+          </div>       
+                  
+             </section>    
                   
               
 
 
               </main>
-
+              
+              <footer>
+                <section class="child-image">
+                  <div class="kids">
+                    <div class="row">
+                      <div class="col-md-4">
+                       
+                      </div>
+                     
+                    </div>
+                  </div>
+                </section>
+                <section class="class">
+                  <div class="container-xl">
+                    <div class="kindergarten d-flex justify-content-between align-items-center">
+                      <div class="school">
+                        <h3> <span>how to</span> let  your child study at kindori?</h3>  
+                        <p>Let your child attend Kindori Kindergarten to help your child develop comprehensively in all aspects.</p>
+                      </div>
+                      
+                        <a href="#" class="button6">enrollment now!</a>
+    
+                      </div>
+                  </div>
+                </section>
+                <section class="kindori py-5">
+                  <div class="container-xl">
+                    <div class="kindori-inner">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <div class="hello">
+                            <ul>
+                              <img src="./assets/images/logo-footer.webp">
+                              <li><a href="#">Come visit The Kindori Kindergarten for yourself so you can tour the rooms and meet some of our educators. We offer high Quality early education</a></li>
+                             
+                             
+                           </ul>
+                          </div>
+                          </div>
+                         
+                     
+                        <div class="col-md-3">
+                        
+                          <ul>
+                            <h4>Contact Us</h4>
+                            <li><a href="#"><i class="fa-sharp fa-solid fa-phone"></i>   888 666 1234</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-envelope"></i>    Kindorischool@gmail.com</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-location-dot"></i>   Suite 12000 San Francisco</a></li>
+                            <li><a href="#"> <i class="fa-sharp fa-solid fa-clock"></i>  Mon - Sat(8am - 5pm) Sunday CLOSED</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                         <div class="buildings">
+                          <ul>
+                            <h4>Activities</h4>
+                            <a href="#">Creative Activities</a>
+                            <a href="#">Sport Activities</a>
+                            <a href="#">Table/Floor Toys</a>
+                            <a href="#">Water Games</a>
+                            <a href="#">Building Blocks</a>
+                            <a href="#">Outdoor Games</a>
+                         
+                          </ul>
+                         </div>
+                        </div>
+                        <div class="col-md-3">
+                          <ul>
+                            <h4>Newsletter</h4>
+                            <li><a href="#">Subscribe to our Newsletter right now to be updated.</a></li>
+                            <div class="mail">
+                              <h5>email</h5>
+                            </div>
+                          
+                            <a class="button5" href="#">subscribe</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="footer py-4">
+                  <div class="container">
+                    <div class="footer-inner d-flex justify-content-between">
+                      <p>© 2022 Kindori, All Rights Reserved. With love by <span>CMSSuperHeroes</span> .</p>
+                      <div class="footer-end">
+                        <p>Sitemap. Terms of Service</p>
+                      </div>
+                   
+                    </div>
+                  </div>
+                </section>
+              </footer>
+              <script src="./assets/js/jquery.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>             
-           
-  
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script src="./assets/js/owl.carousel.min.js"></script>
+            
 
           
     </div><!-- /.site-wrapper -->
-   
+    <script>
+      AOS.init();
+    </script>
+   <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+       
+        items : 4,
+        margin : 15,
+       dots : false,
+        autoplay : true,
+        autoplayTimeout : 2000
+})
+    })
+
+  
+   </script>
   </body>
 </html>

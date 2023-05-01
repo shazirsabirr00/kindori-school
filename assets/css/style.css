@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    
 }
+
 :root {
     --primary: #271344;
     --secondary: #ff4880;
@@ -31,6 +34,7 @@
 .social-icons{
     list-style-type: none;
 }
+
 .social-icons li{
     margin-left: 12px;
     border-radius: 50%;
@@ -53,12 +57,29 @@
 .social-icons li:nth-child(3){
     background-color: var(--secondary);
 }
-
+.social-icons li:nth-child(4){
+    background-color: var(--green);
+}
 
 .dropdown:hover .dropdown-menu{
 display: block;
 margin-top: 12px;
 
+}
+.dropdown-menu::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    border: 2px dashed rgba(255,72,128,.3);
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
 }
 
 
@@ -89,10 +110,20 @@ margin-top: 12px;
     background-color: #ff4880;
     
 }
+.navbar .sticky{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,5%); 
+}
 
 .search_btn {
     padding: 2px;
     border-radius: 50%;
+    border: #ff4880 dashed 2px;
+    
+   
     
 }
 
@@ -206,6 +237,28 @@ margin-top: 12px;
     
 }
 
+.bee_img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 68px;
+    animation-name: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+
+@keyframes alternate {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+
 .card {
     transition: all .4s ease-in-out;
 }
@@ -269,7 +322,7 @@ margin-top: 12px;
     transition: all .1s ease-in-out;
     font-weight: bold;
     text-decoration: none;
-    margin-top: 8px;
+    margin-top: 4px;
     
  }  
  .button2:hover {
@@ -289,6 +342,17 @@ margin-top: 12px;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-delay: 0s;
+}
+
+
+@keyframes alternate {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(5%);
+    }
 }
 
 
@@ -329,11 +393,43 @@ margin: 15px 0;
 .learn_more:hover {
     background-color: var(--primary);
 }
-
+.about-image{
+    
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cms-counter-layout2{
+    width: 240px;
+    height: 240px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 100%;
+    margin: auto;
+}
+.cms-counter-layout2 .cms-counter-icon .icon-image img{
+    max-height: 60px;
+    margin: 0 auto;
+}
+.elementor img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+img{
+    vertical-align: middle;
+}
 .activities{
     text-align: center;
 }
-.activities h5{
+
+.childs h5{
+    
     color: #ff4880;
     font-size: 18px;
     margin-bottom: 10px;
@@ -343,24 +439,284 @@ margin: 15px 0;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 10px;
+        
+    }
+    .childs h2{
+        color: black;
+        text-transform: capitalize;
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+       text-transform: capitalize;
+       margin: 15px 0;
+        
+        
+    }
+    .childs p{
+        margin: 15px 0;
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        
+    }
+    .kindori{
+        background-color: #351c5a;
+        
+    }
+  
+.kindori-inner ul{
+    list-style-type: none;
+}
+.kindori-inner ul li{
+ font-size: 15px;
+ padding: 10px 0;
 
+ 
+}
+.kindori-inner ul li a{
+    text-decoration: none;
+    color: white;
+   
+
+}
+.kindori-inner ul li a i{
+    color: #ffc000;
+}
+.kindori-inner ul h4{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+.buildings ul a{
+    text-decoration: none;
+    color: white;
+  font-size: 15px;
+  display: block;
+  padding: 10px 0;
     
 }
-.activities h2{
+.buildings ul h4{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+.mail h5 {
+    color: #51668a;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0 15px;
+    line-height: 48px;
+    width: 100%;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.button5 {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #ff4880;
+    padding: 0 27px;
+    line-height: 48px;
+    width: 100%;
+    text-align: center;
+}
+.button5:hover{
+    background-color: white;
+    color: black;
+}
+.hello ul img{
+    width: 60%;
+    height: 20%;
+    padding-bottom: 20px;
+    display: block;
+    
+}
+.our-teachers{
+    text-align: center;
+}
+.our-teachers h5{
+    color: #ff4880;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    letter-spacing: 3.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+        
+}
+.our-teachers h2{
     color: black;
     text-transform: capitalize;
     font-family: 'Fredoka', sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 600;
    text-transform: capitalize;
    margin: 15px 0;
     
-    
 }
-.activities p{
+.our-teachers p{
     margin: 15px 0;
     font-family: 'Fredoka', sans-serif;
     text-align: center;
+     
+}
+
+.card3 {
+    transition: all .4s ease-in-out;
+}
+
+.card3:hover {
+    transform: translateY(-20px);
+}
+
+.card3{
+    
+    border-radius: 20px;
+    padding: 18px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fcf9f4;
+    border: 0;
+    
     
 }
+.card3 img{
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    height: auto;
+    width: 100%;
+   
+
+}
+
+.social-links{
+    list-style-type: none;
+    align-items: center;
+}
+.social-links li{
+border-radius: 50%;
+margin-right: 24px;
+}
+.social-links li a{
+color: #fff;
+display: inline-block;
+padding: 6px 10px;
+
+}
+.social-links li:first-child{
+    background-color: var(--blue);
+}
+.social-links li:nth-child(2){
+background-color: var(--yellow);
+}
+.social-links li:nth-child(3){
+    background-color: var(--secondary);
+    }
+    .social-links li:nth-child(4){
+    background-color: var(--green);
+        }
+
+.card3 h3{
+    margin-top: 14px;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.card3 p{
+    margin-bottom: 22px;
+    text-transform: capitalize;
+}
+.discover{
+    background-color: #fcf9f4;
+    position: relative;
+   
+}
+
+.discover2 h2{
+text-align: center;
+text-transform: capitalize;
+font-weight: bold;
+font-size: 40px;
+}
+.test {
+    text-align: center;
+}
+
+ .test .button7{
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #ff4880;
+    border-radius: 10px;
+   color: #fff;
+   padding: 15px 20px;
+   
+   font-size: 15px;
+   text-decoration: none;
+}
+.test .button7:hover{
+    background-color: black;
+}
+.class{
+    background-color: #abcd52;
+    padding: 20px;
+}
+.school h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 12px;
+    color: white;
+    
+}
+.school p{
+    margin-top: 12px;
+    color: white;
+    text-transform: bold;
+ 
+}
+.button6{
+ 
+    color: black;
+    text-decoration: none;
+    background-color:white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    
+    display: inline-block;
+    padding: 13px 26px;
+    transition: all .1s ease-in-out;
+    font-weight: bold;
+    text-decoration: none;
+ 
+ } 
+ 
+
+
+.footer-inner span{
+    color: #ffc000;
+}
+.footer{
+    background-color: black;
+}
+.footer-inner{
+    color: white;
+    margin-top: 10px;
+}
+.footer-inner span:hover{
+    color: #23a455;
+}
+
